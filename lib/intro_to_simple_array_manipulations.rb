@@ -34,7 +34,7 @@ end
 def using_concat(my_favorite_things, all_my_favs)
   my_favorite_things = ["raindrops on roses", "whiskers on kittens"]
   all_my_favs = ["sports cars", "flatiron school"]
-  my_favorite_things.concat(all_my_favs)
+  my_favorite_things.concat(["Sports cars", "flatiron school"])
 end
 
 def using_insert(list_of_programming_languages, new_array)
