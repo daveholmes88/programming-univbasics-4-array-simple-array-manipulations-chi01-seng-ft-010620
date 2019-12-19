@@ -59,5 +59,5 @@ end
 
 def using_delete_at(famous_robots, index)
   famous_robots = ["Johnny 5", "R2D2", "Robocop"]
-  deleted.robot = famous_robots.delete_at(2)
+  deleted.robot = famous_robots.delete_at(index) 
 end
